@@ -15,8 +15,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class AppTests3 {
 
 	@Test
-	void contextLoads31() {
-		assertThat("foo").isEqualTo("foo");
+	void contextLoads11() {
+		assertThat("foo").isEqualTo("bar");
 
 	}
 		@Test
