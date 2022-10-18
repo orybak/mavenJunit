@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AppTests2 {
+class MavenDemoApplication2Tests {
 
 	@Test
 	void contextLoads21() {
