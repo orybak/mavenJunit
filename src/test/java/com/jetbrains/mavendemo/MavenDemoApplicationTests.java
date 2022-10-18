@@ -15,7 +15,17 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MavenDemoApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void contextLoads11() {
+		assertThat("foo").isEqualTo("bar");
+
+	}
+		@Test
+	void contextLoads12() {
+		assertThat("foo").isEqualTo("foo");
+
+	}
+		@Test
+	void contextLoads13() {
 		assertThat("foo").isEqualTo("bar");
 
 	}
