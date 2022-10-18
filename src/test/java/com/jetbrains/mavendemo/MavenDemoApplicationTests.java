@@ -8,7 +8,7 @@ class MavenDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assert.fail("fail ggxd ");
+		assertThat(foo).isEqualTo("bar");
 
 	}
 
