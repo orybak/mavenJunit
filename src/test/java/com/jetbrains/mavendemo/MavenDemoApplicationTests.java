@@ -5,10 +5,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class MavenDemoApplicationTests {
-
+String foo;
+	foo = "foo";
 	@Test
 	void contextLoads() {
-		assertThat("foo").isEqualTo("bar");
+		assertThat(foo).isEqualTo("bar");
 
 	}
 
