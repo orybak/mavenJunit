@@ -8,7 +8,7 @@ class MavenDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assertThat(foo).isEqualTo("bar");
+		assertThat("foo").isEqualTo("bar");
 
 	}
 
