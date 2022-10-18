@@ -8,6 +8,8 @@ class MavenDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		Assert.fail("fail ggxd ");
+
 	}
 
 }
